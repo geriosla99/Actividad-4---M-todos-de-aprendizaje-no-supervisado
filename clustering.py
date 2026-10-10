@@ -2,8 +2,11 @@
 1) K-Means sobre registros (estación-hora-día) para encontrar patrones de demanda.
 2) Clustering jerárquico sobre perfiles por estación (dendrograma).
 Sin variable objetivo: no se usa 'nivel_ocupacion'."""
+import os
 import matplotlib
 matplotlib.use("Agg")
+os.makedirs("docs", exist_ok=True)
+os.makedirs("data", exist_ok=True)
 import matplotlib.pyplot as plt
 import pandas as pd
 from scipy.cluster.hierarchy import dendrogram, linkage
