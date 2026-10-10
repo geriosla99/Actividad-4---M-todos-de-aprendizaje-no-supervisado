@@ -1,0 +1,210 @@
+{
+  "auditoria": {
+    "sha256": "f1f2abb5a494a6166e4791c2b1f6e99d6572eb5ae807cbe74b54d7cde4336248",
+    "filas_originales": 5000,
+    "duplicados_eliminados": 27,
+    "filas_utilizadas": 4973,
+    "estaciones": [
+      "Acevedo",
+      "Estadio",
+      "Itagüí",
+      "La Estrella",
+      "Niquía",
+      "Poblado",
+      "San Antonio",
+      "San Javier"
+    ],
+    "clases": {}
+  },
+  "python": "3.12.14",
+  "sklearn": "1.9.1",
+  "semilla": 42,
+  "variables": [
+    "hora",
+    "no_laborable",
+    "pasajeros"
+  ],
+  "etiqueta_excluida": true,
+  "k_elegido": 7,
+  "evaluacion_k": [
+    {
+      "k": 2,
+      "inercia": 8807.18524128675,
+      "silueta": 0.447835906727752
+    },
+    {
+      "k": 3,
+      "inercia": 6317.482822010328,
+      "silueta": 0.41086400204288687
+    },
+    {
+      "k": 4,
+      "inercia": 4724.242839063004,
+      "silueta": 0.4107178519163152
+    },
+    {
+      "k": 5,
+      "inercia": 3466.6536772428285,
+      "silueta": 0.4411375615482319
+    },
+    {
+      "k": 6,
+      "inercia": 2579.55950207172,
+      "silueta": 0.47342309903787716
+    },
+    {
+      "k": 7,
+      "inercia": 2082.583270363183,
+      "silueta": 0.48538465369216754
+    },
+    {
+      "k": 8,
+      "inercia": 1760.6899577098498,
+      "silueta": 0.4805873985870142
+    }
+  ],
+  "silueta": 0.48538465369216754,
+  "estabilidad": [
+    {
+      "semilla": 7,
+      "ari": 0.998918269307888
+    },
+    {
+      "semilla": 21,
+      "ari": 0.9793915229974659
+    },
+    {
+      "semilla": 84,
+      "ari": 1.0
+    }
+  ],
+  "pca_varianza_explicada": 0.8264585973667911,
+  "grupos_jerarquicos": 3,
+  "perfiles": [
+    {
+      "cluster": 0,
+      "hora": 17.53548387096774,
+      "no_laborable": 1.0,
+      "pasajeros": 223.26193548387096,
+      "registros": 775
+    },
+    {
+      "cluster": 1,
+      "hora": 7.219148936170213,
+      "no_laborable": 0.0,
+      "pasajeros": 1023.5425531914893,
+      "registros": 470
+    },
+    {
+      "cluster": 2,
+      "hora": 20.4735516372796,
+      "no_laborable": 0.0,
+      "pasajeros": 224.5566750629723,
+      "registros": 397
+    },
+    {
+      "cluster": 3,
+      "hora": 9.003456221198157,
+      "no_laborable": 1.0,
+      "pasajeros": 230.67857142857142,
+      "registros": 868
+    },
+    {
+      "cluster": 4,
+      "hora": 8.536526946107784,
+      "no_laborable": 0.0,
+      "pasajeros": 342.348502994012,
+      "registros": 835
+    },
+    {
+      "cluster": 5,
+      "hora": 14.48,
+      "no_laborable": 0.0,
+      "pasajeros": 506.19063829787234,
+      "registros": 1175
+    },
+    {
+      "cluster": 6,
+      "hora": 17.902869757174393,
+      "no_laborable": 0.0,
+      "pasajeros": 1117.944812362031,
+      "registros": 453
+    }
+  ],
+  "estaciones": [
+    {
+      "estacion": "Acevedo",
+      "pasajeros_pico": 1139.1283783783783,
+      "pasajeros_valle": 491.96065573770494,
+      "pasajeros_finde": 288.60818713450294,
+      "razon_lluvia": 0.8798119298589916,
+      "grupo": 1
+    },
+    {
+      "estacion": "Estadio",
+      "pasajeros_pico": 815.3221476510067,
+      "pasajeros_valle": 315.84300341296927,
+      "pasajeros_finde": 182.4746835443038,
+      "razon_lluvia": 0.7501144931789077,
+      "grupo": 0
+    },
+    {
+      "estacion": "Itagüí",
+      "pasajeros_pico": 707.5488721804511,
+      "pasajeros_valle": 293.82329317269074,
+      "pasajeros_finde": 179.45876288659792,
+      "razon_lluvia": 0.9034093428210092,
+      "grupo": 2
+    },
+    {
+      "estacion": "La Estrella",
+      "pasajeros_pico": 666.5694444444445,
+      "pasajeros_valle": 273.83272727272725,
+      "pasajeros_finde": 158.7914110429448,
+      "razon_lluvia": 0.8130423818526971,
+      "grupo": 0
+    },
+    {
+      "estacion": "Niquía",
+      "pasajeros_pico": 887.1688311688312,
+      "pasajeros_valle": 364.0483870967742,
+      "pasajeros_finde": 223.92696629213484,
+      "razon_lluvia": 0.8817634486435199,
+      "grupo": 2
+    },
+    {
+      "estacion": "Poblado",
+      "pasajeros_pico": 1020.6712328767123,
+      "pasajeros_valle": 392.4236641221374,
+      "pasajeros_finde": 232.0601092896175,
+      "razon_lluvia": 0.8148094710660293,
+      "grupo": 0
+    },
+    {
+      "estacion": "San Antonio",
+      "pasajeros_pico": 1364.0621118012423,
+      "pasajeros_valle": 546.0,
+      "pasajeros_finde": 332.20652173913044,
+      "razon_lluvia": 0.9012322287773789,
+      "grupo": 1
+    },
+    {
+      "estacion": "San Javier",
+      "pasajeros_pico": 983.1586206896552,
+      "pasajeros_valle": 400.5057915057915,
+      "pasajeros_finde": 224.99,
+      "razon_lluvia": 0.7525668685397926,
+      "grupo": 0
+    }
+  ],
+  "escala_media": [
+    13.106374421878142,
+    0.33038407399959785,
+    468.63764327367784
+  ],
+  "escala_desviacion": [
+    4.868731883870087,
+    0.470351398049401,
+    354.5204573531945
+  ]
+}

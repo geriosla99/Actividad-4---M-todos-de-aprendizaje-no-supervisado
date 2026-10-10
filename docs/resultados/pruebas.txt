@@ -1,0 +1,19 @@
+test_carga_sin_variable_objetivo (test_componente.AgrupamientoTest.test_carga_sin_variable_objetivo) ... ok
+test_escalado (test_componente.AgrupamientoTest.test_escalado) ... ok
+test_escenarios_insuficientes (test_componente.AgrupamientoTest.test_escenarios_insuficientes) ... ok
+test_etiquetas_no_cambian_matriz (test_componente.AgrupamientoTest.test_etiquetas_no_cambian_matriz) ... ok
+test_perfiles_incompletos (test_componente.AgrupamientoTest.test_perfiles_incompletos) ... ok
+test_columna_faltante (test_componente.DatosTest.test_columna_faltante) ... ok
+test_duplicados (test_componente.DatosTest.test_duplicados) ... ok
+test_etiqueta_incoherente (test_componente.DatosTest.test_etiqueta_incoherente) ... ok
+test_nulos (test_componente.DatosTest.test_nulos) ... ok
+test_rango (test_componente.DatosTest.test_rango) ... ok
+test_semilla_distinta (test_componente.DatosTest.test_semilla_distinta) ... ok
+test_semilla_reproducible (test_componente.DatosTest.test_semilla_reproducible) ... ok
+test_sin_fuga_pasajeros (test_componente.DatosTest.test_sin_fuga_pasajeros) ... ok
+test_umbral_clases (test_componente.DatosTest.test_umbral_clases) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.232s
+
+OK

@@ -1,0 +1,17 @@
+{
+  "tipo": "sintetico",
+  "sistema": "Metro de Medellín",
+  "unidad": "escenario de demanda por estación y franja de una hora",
+  "filas": 5000,
+  "semilla": 42,
+  "generador": "numpy.default_rng",
+  "numpy": "2.3.5",
+  "sha256": "f1f2abb5a494a6166e4791c2b1f6e99d6572eb5ae807cbe74b54d7cde4336248",
+  "advertencia": "No contiene mediciones oficiales ni capacidad física de trenes. No usar para decisiones operativas.",
+  "umbrales_academicos": {
+    "baja": "0 a 350",
+    "media": "351 a 800",
+    "alta": "801 o más"
+  },
+  "referencia_estaciones": "https://github.com/Dumo04/actividad2-rutas-metro-medellin/blob/main/conocimiento/metro_medellin.kb"
+}
